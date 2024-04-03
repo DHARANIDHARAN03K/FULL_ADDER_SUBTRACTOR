@@ -51,6 +51,7 @@ Developed by: DHARANI DHARAN K
 
 
 RegisterNumber: 212223040036
+```
 
 module Fulladdsub(a,b,cin,sum,carry,BO,DIFF);
 
@@ -67,6 +68,8 @@ assign DIFF=(a^b^cin);
 assign BO=(~a&b)|(~(a^b)& cin);
 
 endmodule
+
+```
 
 RTL Schematic
 
